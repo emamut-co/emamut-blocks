@@ -68,7 +68,7 @@ registerBlockType("cgb/block-emamut-blocks", {
 				tagName="strong"
 				className={className}
 				onChange={(content) => setAttributes({ content })}
-				placeholder={__("Titre", "lang")}
+				placeholder={__("Title", "lang")}
 				value={attributes.content}
 				keepPlaceholderOnFocus={true}
 				formattingControls={[]}
